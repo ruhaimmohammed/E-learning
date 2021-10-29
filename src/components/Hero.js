@@ -36,9 +36,6 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     border: 0px solid white;
-    background: grey;
-    background-image: url("/assets/e-learn-bg.png") ;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 `
@@ -46,12 +43,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
     height: 100vh;
     width: 100%;
-    background-color: #60ff0f0f;
-    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-        -webkit-backdrop-filter: blur(35px);
-        backdrop-filter: blur(35px);
-        background-color: #60ff0f0f;
-      }
+    
 `
 
 const InnerWrapper = styled.div`
@@ -66,6 +58,9 @@ const InnerWrapper = styled.div`
       img{
           width: 100%;
       }
+      @media(max-width: 670px){
+      flex-direction: column;
+    }
 `
 
 const Left = styled.div`
