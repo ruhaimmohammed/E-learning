@@ -55,7 +55,7 @@ const Container = styled.div`
         font-weight: 900;
         font-size: 3.5rem;
 
-    &:nth-of-type(1){
+        &:nth-of-type(1){
             color:#0080008f;
         }
         &:nth-of-type(2){
@@ -67,7 +67,14 @@ const Container = styled.div`
         &:nth-of-type(4){
             color:green;
         }
+        
     }
+    @media (max-width:620px) {
+        
+        h1{
+            font-size: 2.9rem;
+        }
+        
 
     
 `
