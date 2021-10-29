@@ -17,3 +17,15 @@ button {
   height: 70px;
   cursor: pointer;
 }
+#readmore{
+  padding: 0.7rem 1.1rem;
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+}
+
+@media(max-width: 844px){
+  #logo{
+    height: 48px;
+  }
+}

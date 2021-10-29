@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Tilt from 'react-tilt'
+import HeroText from './HeroText'
 
 const Hero = () => {
     return (
@@ -8,7 +9,7 @@ const Hero = () => {
             <Wrapper>
                 <InnerWrapper>
                     <Left>
-                        <h1>Left</h1>
+                        <HeroText />
                     </Left>
                     <TiltWrapper options={{ max:20 }}>
                         <img src="/assets/e-learn.png" alt="Image" />
@@ -24,8 +25,10 @@ export default Hero
 
 const TiltWrapper = styled(Tilt)`
     width: 60%;
-    @media(max-width: 670px){
+    @media(max-width: 844px){
         width: 100%;
+        margin-top: 5vh;
+
     }
 `
 
@@ -58,14 +61,17 @@ const InnerWrapper = styled.div`
       img{
           width: 100%;
       }
-      @media(max-width: 670px){
-      flex-direction: column;
+
+      @media(max-width: 844px){
+        text-align: center;
     }
+      
 `
 
 const Left = styled.div`
       width: 40%;
-      @media(max-width: 670px){
-          width: 100%;
-      }
+      @media(max-width: 844px){
+        width: 100%;
+        margin-top: 20vh;
+    }
 `

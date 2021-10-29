@@ -78,6 +78,9 @@ const LinkWrapper = styled.div`
 
     @media (max-width:768px) {
         flex-direction: column;
+        background-color: #e2f2ce;
+        width: 85%;
+        border-radius: 15px;
 
     }
 `
@@ -96,6 +99,10 @@ const MenuLink = styled.a`
                 background-color: #8080807a;
                 transition: all 0.2s ease-in;
             }
+            @media (max-width:768px) {
+                margin: 0px;
+                }
+            
 `
 
 const Button = styled.button`
@@ -111,6 +118,11 @@ const Button = styled.button`
     &:hover{
         transform:translateY(-3.5px);
         transition: 0.2s ease-out;
+    }
+    @media (max-width:768px) {
+        margin-top: 10px;
+        }
+
     }
 
     @media (max-width:700px) {
