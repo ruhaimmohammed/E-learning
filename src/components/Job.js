@@ -50,7 +50,7 @@ const Container = styled.div`
     display: flex;
     width: auto;
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding: 50px;
     border-bottom: 7px solid #00000009;
 

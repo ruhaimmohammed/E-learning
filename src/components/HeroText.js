@@ -10,7 +10,7 @@ const HeroText = () => {
             <h1>Anytime.</h1>
             <h1>Anywhere.</h1>
             <BtnContainer>
-                <button id="readmore">Read More</button>
+                <input type="email" placeholder="Enter your e-mail" />
                 <button>Start Now</button>
             </BtnContainer>
         </Container>
@@ -21,23 +21,31 @@ export default HeroText
 
 const BtnContainer = styled.div`
     margin-top: 2rem;
+
     button{
         background-color: black;
         border: none;
         padding: 0.9rem 1.1rem;
         color: #fff; 
-        border-radius: 1rem;
+        border-radius: 8px;
         box-shadow: 0px 3px 12px black;
         margin-left: 15px;
-        transition: all 0.3s ease-in-out; 
         font-size: 0.8rem;
         cursor: pointer;
 
-        &:hover{
-            transform:translateY(-2.8px);
-            transition: 0.2s ease-out;
-        
-        }
+    }
+
+    input{
+        background-color: white;
+        border: none;
+        padding: 0.9rem 1.1rem;
+        color: #000; 
+        border-radius: 8px;
+        box-shadow: 0px 3px 12px black;
+        margin-left: 15px;
+        font-size: 0.8rem;
+        border: 2px solid grey;
+
     }
 `
 
