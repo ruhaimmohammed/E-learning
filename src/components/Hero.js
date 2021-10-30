@@ -33,7 +33,7 @@ const TiltWrapper = styled(Tilt)`
 `
 
 const Container = styled.div`
-    height: 100vh;
+    height: 98vh;
     width: 100%;
     diplay: flex;
     justify-content: center;
@@ -41,11 +41,19 @@ const Container = styled.div`
     border: 0px solid white;
     background-size: cover;
     background-position: center;
+    border-bottom: 10px solid #00000066;
+
+    @media(max-width: 844px){
+        height: auto;
+    }
 `
 
 const Wrapper = styled.div`
     height: 100vh;
     width: 100%;
+    @media(max-width: 844px){
+        height: auto;
+    }
     
 `
 

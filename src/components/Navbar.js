@@ -134,7 +134,7 @@ const Hamburger = styled.div`
     display: none;
     flex-direction: column;
     cursor: pointer;
-
+ 
     span{
         height: 2px;
         width: 25px;
