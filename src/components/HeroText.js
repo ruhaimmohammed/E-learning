@@ -33,6 +33,10 @@ const BtnContainer = styled.div`
         font-size: 0.8rem;
         cursor: pointer;
 
+        @media(max-width:600px){
+            margin-top: 15px;
+        }
+
     }
 
     input{
@@ -46,6 +50,9 @@ const BtnContainer = styled.div`
         font-size: 0.8rem;
         border: 2px solid grey;
 
+        @media(max-width:600px){
+            width: 230px;
+        }
     }
 `
 
