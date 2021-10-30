@@ -220,11 +220,12 @@ const Frameworks = styled.div`
 display: flex;
 width: auto;
 height: auto;
-border-radius: 10px;
 width: auto;
 overflow-x: scroll;
 overflow-y: hidden;
 padding: 50px;
+border-bottom: 7px solid #00000009;
+
 
 div{
     position: relative;
@@ -256,7 +257,7 @@ p{
 &::-webkit-scrollbar {
     display: none;
   }
-  
+
 @media (max-width:620px) {
     padding: 30px;
    }

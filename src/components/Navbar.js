@@ -14,7 +14,7 @@ const Navbar = () => {
                 </Hamburger>
                 <Menu isOpen={isOpen}>
                     <LinkWrapper>
-                        <MenuLink href="#">Search</MenuLink>
+                        <MenuLink href="#contact">Contact</MenuLink>
                         <MenuLink href="#">Login</MenuLink>
                         <Button>Join Now</Button>
                     </LinkWrapper>

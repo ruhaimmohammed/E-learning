@@ -41,7 +41,7 @@ const Container = styled.div`
     border: 0px solid white;
     background-size: cover;
     background-position: center;
-    border-bottom: 10px solid #00000066;
+    border-bottom: 7px solid #00000009;
 
     @media(max-width: 844px){
         height: auto;
