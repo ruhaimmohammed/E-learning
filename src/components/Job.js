@@ -52,7 +52,6 @@ const Container = styled.div`
     height: auto;
     width: 100%;
     padding: 50px;
-    border-bottom: 7px solid #00000009;
 
     @media (max-width:1024px) {
         padding: 50px 20px;
