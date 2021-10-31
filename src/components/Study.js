@@ -193,6 +193,9 @@ const Language = styled.div`
             transform-origin: center;
             transition: 0.2s;
         }
+        @media (max-width:620px) {
+            margin: 10px 5px;
+           }
  
     }
     
@@ -211,7 +214,7 @@ const Language = styled.div`
       }
 
     @media (max-width:620px) {
-         padding: 30px 2.8px;
+         padding: 30px 7px;
         }
 `
 
@@ -242,6 +245,10 @@ div{
         transition: 0.2s;
     }
 
+    @media (max-width:620px) {
+        margin: 10px 5px;
+       }
+
 }
 img{
     height: 120px;
@@ -258,7 +265,7 @@ p{
   }
 
 @media (max-width:620px) {
-    padding: 30px 2.8px;
+    padding: 30px 7px;
    }
 `
 
