@@ -69,7 +69,7 @@ const Container = styled.div`
     h1{
         font-weight: 900;
         font-size: 3.5rem;
-
+        
         &:nth-of-type(1){
             color:#0080008f;
         }

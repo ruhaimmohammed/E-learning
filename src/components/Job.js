@@ -65,8 +65,7 @@ const Container = styled.div`
     h1{
         font-size: 45px;
         margin-top: 20px;
-        text-decoration: underline;
-        text-shadow: 2px 2px 5px #008000d6;
+        text-shadow: 2px 2px 4px #008000d6;
         color:#008000d6 ;
         width: 50%;
         text-align: center;
