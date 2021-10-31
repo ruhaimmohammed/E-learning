@@ -211,7 +211,7 @@ const Language = styled.div`
       }
 
     @media (max-width:620px) {
-         padding: 30px 4px;
+         padding: 30px 2.8px;
         }
 `
 
@@ -258,7 +258,7 @@ p{
   }
 
 @media (max-width:620px) {
-    padding: 30px 4px;
+    padding: 30px 2.8px;
    }
 `
 
